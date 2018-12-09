@@ -11,7 +11,7 @@ header("Content-Type:text/html;charset=utf-8");
  * reg_date TIMESTAMP
  */
 
-$sql = "select * from board";
+$sql = "SELECT * from board order by id desc";
 $result = mysqli_query($conn, $sql);
 
 ?>
